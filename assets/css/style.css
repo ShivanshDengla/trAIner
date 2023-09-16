@@ -29,7 +29,7 @@
   --sonic-silver: hsl(0, 0%, 47%);
   --cadet-gray: hsl(214, 15%, 62%);
   --light-gray: hsl(0, 0%, 80%);
-  --coquelicot: hsl(12, 98%, 52%);
+  --coquelicot: hsla(117, 94%, 27%, 0.518);
   --gainsboro: hsl(0, 0%, 88%);
   --white_20: hsl(0, 0%, 100%, 0.2);
   --white_10: hsl(0, 0%, 100%, 0.1);
@@ -275,8 +275,8 @@ body {
 }
 
 .section-subtitle {
-  background-color: var(--coquelicot_10);
-  color: var(--coquelicot);
+  background-color: none;
+  color: lightgreen;
   padding: 8px 20px;
   border-radius: var(--radius-8);
 }
@@ -1203,7 +1203,7 @@ body {
 
   .header.active .navbar-link { color: var(--rich-black-fogra-29-1); }
 
-  .header .navbar-link:is(:hover, :focus, .active) { color: var(--coquelicot); }
+  .header .navbar-link:is(:hover, :focus, .active) { color: orange; }
 
   .header.active .btn {
     background-color: var(--coquelicot);
